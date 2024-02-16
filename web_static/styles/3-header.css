@@ -1,0 +1,16 @@
+/* web_static/styles/3-header.css */
+header {
+  background: #f00;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+/* You can add styles for the logo here */
+header span {
+  margin-right: 20px; /* Adjust as needed */
+}
+

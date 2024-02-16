@@ -1,16 +1,15 @@
-/* web_static/styles/3-header.css */
 header {
-  background: #f00;
+  background-color: #FFF;
   height: 70px;
   width: 100%;
   border-bottom: 1px solid #CCCCCC;
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
 }
 
-/* You can add styles for the logo here */
-header span {
-  margin-right: 20px; /* Adjust as needed */
+.logo {
+  background: url("../images/logo_img.png") no-repeat;
+  background-position: left;
+  background-size: contain; /* Add this line to ensure the logo fits within the header */
+  display: block;
+  height: 100%;
+  margin-left: 20px;
 }
-
